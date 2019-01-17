@@ -58,6 +58,10 @@
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
 
+@media @mobile {
+  border-bottom: 0;
+}
+
     .text-content {
       padding-left: 1%;
       padding-right: 0;
@@ -77,6 +81,11 @@
     width: 75%;
     margin: 0 auto 30px;
 
+    @media @mobile {
+      width: 100%;
+      padding: 0 4%;
+    }
+
     img {
       border-radius: 10px;
     }
@@ -90,14 +99,24 @@
 
     @media @mobile {
       flex-direction: column;
+      border-top: 0;
+      padding: 8% 10% 0 10%;
     }
 
     .destination {
       width: 30%;
       margin-bottom: 30px;
 
+      @media @mobile {
+        width: 100%;
+      }
+
       .btn {
         .button-styles();
+
+        @media @mobile {
+          .button-styles(#4C9FB5; white; 15px; 100%; 4%; center; 1.6rem; bold);
+        }
       }
     }
   }
