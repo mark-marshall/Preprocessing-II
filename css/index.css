@@ -146,6 +146,11 @@ h5 {
 h1 {
   font-size: 4rem;
 }
+@media (max-width: 500px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+}
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
@@ -175,10 +180,22 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .header-bar {
+    flex-direction: column;
+    padding-top: 4%;
+  }
+}
 .header-bar nav {
-  width: 45.5%;
+  width: 48%;
   display: flex;
   justify-content: space-around;
+}
+@media (max-width: 500px) {
+  .header-bar nav {
+    width: 190%;
+    padding: 6% 0;
+  }
 }
 .header-bar nav a {
   text-decoration: none;

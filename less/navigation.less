@@ -5,10 +5,20 @@
     justify-content: space-between;
     align-items: center;
 
+    @media @mobile {
+        flex-direction: column;
+        padding-top: 4%;
+    }
+
     nav {
-        width: 45.5%;
+        width: 48%;
         display: flex;
         justify-content: space-around;
+
+        @media @mobile {
+            width: 190%;
+            padding: 6% 0;
+        }
 
         a {
             text-decoration: none;
