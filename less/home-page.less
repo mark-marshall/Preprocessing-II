@@ -58,9 +58,10 @@
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
 
-@media @mobile {
-  border-bottom: 0;
-}
+    @media @mobile {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
 
     .text-content {
       padding-left: 1%;
@@ -81,6 +82,12 @@
     width: 75%;
     margin: 0 auto 30px;
 
+    h2 {
+      @media @mobile {
+        margin-top: 7%;
+      }
+    }
+
     @media @mobile {
       width: 100%;
       padding: 0 4%;
@@ -88,6 +95,18 @@
 
     img {
       border-radius: 10px;
+
+      @media @mobile {
+        margin-bottom: 6.5%;
+      }
+    }
+
+    .line-dividers {
+      @media @mobile {
+        border-top: 2px dashed lightgrey;
+        height: 1px;
+        background: white;
+      }
     }
   }
 
@@ -100,7 +119,7 @@
     @media @mobile {
       flex-direction: column;
       border-top: 0;
-      padding: 8% 10% 0 10%;
+      padding: 1.5% 10% 0 10%;
     }
 
     .destination {
