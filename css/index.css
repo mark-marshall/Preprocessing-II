@@ -270,6 +270,10 @@ img {
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+  transition: opacity 0.4s ease-out;
+}
+.home .content-section .img-content img:hover {
+  opacity: 0.8;
 }
 @media (max-width: 500px) {
   .home .content-section .img-content img {
@@ -316,6 +320,10 @@ img {
 }
 .home .content-destination img {
   border-radius: 10px;
+  transition: opacity 0.4s ease-out;
+}
+.home .content-destination img:hover {
+  opacity: 0.8;
 }
 @media (max-width: 500px) {
   .home .content-destination img {
