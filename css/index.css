@@ -203,7 +203,11 @@ img {
   font-size: 1.6rem;
   color: black;
   width: 20%;
+  transition: font-size 1.2s;
   text-align: center;
+}
+.header-bar nav a:hover {
+  font-size: 1.8rem;
 }
 .footer {
   width: 100%;
