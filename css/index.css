@@ -207,7 +207,8 @@ img {
   text-align: center;
 }
 .header-bar nav a:hover {
-  font-size: 1.8rem;
+  font-size: 1.65rem;
+  font-weight: bold;
 }
 .footer {
   width: 100%;
@@ -373,6 +374,7 @@ img {
 .home .content-pick .destination .btn:hover {
   transform: scale(1.1);
   cursor: pointer;
+  background: #285b5c;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination .btn {
