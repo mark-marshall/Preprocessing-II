@@ -132,6 +132,12 @@
 
       .btn {
         .button-styles();
+        transition: all .2s ease-in-out;
+
+        &:hover {
+          transform: scale(1.1);
+          cursor: pointer;
+        }
 
         @media @mobile {
           .button-styles(@eastern-blue; white; 15px; 100%; 4%; center; 1.6rem; bold);

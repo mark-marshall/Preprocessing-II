@@ -360,6 +360,11 @@ img {
   text-align: center;
   font-size: 1.4rem;
   font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+.home .content-pick .destination .btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination .btn {
