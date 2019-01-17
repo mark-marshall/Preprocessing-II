@@ -221,7 +221,7 @@ img {
 }
 @media (max-width: 500px) {
   .home .home-header {
-    padding: 2% 3% 0% 3%;
+    padding: 0 3% 0% 3%;
   }
 }
 .home .home-header p {
