@@ -1,1 +1,15 @@
-// Mixins in here
+.button-styles(@background: #387E7F; @color: white; @radius: 10px; @width: 80%; @padding:5%; @align: center; @size: 1.4rem; @weight: bold){
+    background-color: @background;
+    color: @color;
+    border-radius: @radius;
+    width: @width;
+    padding: @padding;
+    text-align: @align;
+    font-size: @size;
+    font-weight: @weight
+}
+
+.nav-grow(@size; @weight){
+    font-size: @size;
+    font-weight: @weight;
+}
